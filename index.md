@@ -1,16 +1,15 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 9, 16, 23 February 2026 || 09:30 - 17:30
+### 16<sup>th</sup>, 17<sup>th</sup>, 20<sup>th</sup> April 2026 || 09:30 - 17:30
 #### Online via Zoom
 
 ![](SingleCell_Seurat_Base/Images/uniOfCamCrukLogos.png)
 
 ## Instructors
 
-- Abbi Edwards (CRUK)
 - Adam Reid (Gurdon Institute)
-- Betty Wang (Clinical Neurosciences)
-- Hugo Tavares (CRIT)
+- Ashley Sawle (CRUK)
+- Daianna Gonzalez Padilla (MRC Biostatistics Unit)
 - Guest Speaker: Kasia Kania (Cosyne Therapeutics)
 
 ## Outline
@@ -66,17 +65,17 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 ### Day 1
 
 
-* 09:30 - 09:45 **Welcome** - Abbi
+* 09:30 - 09:45 **Welcome**
 * 09:45 - 10:30 **Introduction to Single Cell Technologies** - Katarzyna Kania
     + [Slides](SingleCell_Seurat_Base/Slides/01_Introduction.pdf)
-* 10:30 - 10:44 **Preamble**: data set and workflow - Adam
+* 10:30 - 10:44 **Preamble**: data set and workflow - Daianna  
     + [Slides](SingleCell_Seurat_Base/Slides/02_PreambleSlides.html)
 * 10:45 - 11:00 - **Break**
-* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Adam
+* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Daianna   
     + [Slides](SingleCell_Seurat_Base/Slides/03_CellRangerSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/03_CellRanger.html)
 * 12:30 - 13:30 **Lunch break**
-* 13:30 - 17:00 **QC and exploratory analysis** - Abbi
+* 13:30 - 17:00 **QC and exploratory analysis** - Adam  
     + [Slides](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.html)
         
@@ -84,36 +83,36 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 ### Day 2
 
 
-* 09:30 - 09:40 **Recap** - Adam
+* 09:30 - 09:40 **Recap** - Ash  
     + [Slides](SingleCell_Seurat_Base/Slides/00_Day1_Recap.html)
-* 09:40 - 12:30 **Normalisation and feature selection** - Adam
+* 09:40 - 12:30 **Normalisation and feature selection** - Ash  
     + [Slides](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/05_NormalisationAndFeatureSelection.html)    
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Dimensionality reduction** - Betty
+* 13:30 - 15:25 **Dimensionality reduction** - Adam  
     + [Slides](SingleCell_Seurat_Base/Slides/06_DimensionalityReduction_slides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/06_DimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Abbi
+* 15:35 - 17:30 **Batch correction and data set integration** - Daianna   
     + [Slides](SingleCell_Seurat_Base/Slides/07_DatasetIntegrationSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/07_Dataset_Integration.html)
    
 
 ### Day 3
 
-* 09:30 - 09:40 Recap - Abbi
-* 09:40 - 11:05 **Cell clustering** - Abbi
+* 09:30 - 09:40 Recap - Adam
+* 09:40 - 11:05 **Cell clustering** - Adam
     + [Slides](SingleCell_Seurat_Base/Slides/08_Clustering_Slides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break**
-* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
+* 11:15 - 12:30 **Identification of cluster marker genes** - Adam
     + [Slides](SingleCell_Seurat_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 16.00 **Differential Expression Analysis** - Adam
+* 13:30 - 16.00 **Differential Expression Analysis** - Daianna
 	+ [Slides](SingleCell_Seurat_Base/Slides/10_Differential_Expression_Slides.html)
 	+ [Demonstration](SingleCell_Seurat_Base/Markdowns/10_Differential_Expression.html)
-* 16.00 - 17.30 **Differential Abundance Analysis** - Betty
+* 16.00 - 17.30 **Differential Abundance Analysis** - Ash
 	+ [Slides](SingleCell_Seurat_Base/Slides/11_Differential_Abundance_Slides.html)
 	+ [Conversion to SingleCellExperiment](SingleCell_Seurat_Base/Markdowns/10a_ConversionToSCE.html)
 	+ [Milo Demonstration](SingleCell_Seurat_Base/Markdowns/11_Differential_Abundance.html)
