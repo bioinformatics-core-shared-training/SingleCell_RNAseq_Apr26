@@ -147,6 +147,9 @@ However, if you want to run the analysis on your own computer, you can follow th
                            "miloR",
                            "scran",
                            "Matrix"))
+
+    # for much faster FindAllMarkers()
+    remotes::install_github("immunogenomics/presto")
     ```
 
 For Cellranger, you will need to use a Linux machine.
